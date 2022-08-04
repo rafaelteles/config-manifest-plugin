@@ -8,7 +8,7 @@
     <license>MIT</license>
 
     <keywords>cordova,android</keywords>
-    <repo>https://github.com/rafaelteles/config-manifest-plugin</repo>
+    <repo>https://github.com/rafaelteles/config-manifest-plugin.git</repo>
     <issue>https://github.com/rafaelteles/config-manifest-plugin/issues</issue>
   
     <engines>
