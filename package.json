@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-config",
+  "version": "0.0.1",
+  "description": "test",
+  "cordova": {
+    "id": "cordova-plugin-config",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelteles/config-manifest-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=8.0.0"
+    }
+  ],
+  "author": "Boryn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelteles/config-manifest-plugin/issues"
+  },
+  "homepage": "https://github.com/rafaelteles/config-manifest-plugin/"
+}
