@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-config" version="0.0.1">
+    <name>ConfigPlugin</name>
+
+    <description>Test</description>
+    <license>MIT</license>
+
+    <keywords>cordova,android</keywords>
+    <repo>https://github.com/rafaelteles/config-manifest-plugin</repo>
+    <issue>https://github.com/rafaelteles/config-manifest-plugin/issues</issue>
+  
+    <engines>
+        <engine name="cordova" version=">=8.0.0"/>
+    </engines>
+  
+    <platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <queries>
+          <package android:name="com.serpro.digital_serpro"/>
+      </queries>
+    </config-file>
+  </platform>
+</plugin>
