@@ -19,6 +19,7 @@
     <config-file target="AndroidManifest.xml" parent="/*">
       <queries>
           <package android:name="com.serpro.digital_serpro"/>
+          <package android:name="br.gov.serpro.liveness.hom"/>
       </queries>
     </config-file>
   </platform>
